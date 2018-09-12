@@ -1,9 +1,11 @@
 Как проверять?
-1) npm i
-2) Прописать настройки MYSQL БД в .env
-3) php artisan migrate
-4) php artisan db:seed
-5) php artisan serve
+1) composer install
+2) copy .env.example .env (Windows)
+3) php artisan key:generate
+4) Прописать настройки MYSQL БД в .env
+5) php artisan migrate
+6) php artisan db:seed
+7) php artisan serve
 
 Запуск сервера
 php artisan serve
